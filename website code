@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <head>
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/contact.css?version=2.0">
+        <link rel="stylesheet" href="/css/general.css?version=2.2">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="utf-8">
+       <title>Bhakti Nagaria's Site</title>
+	<style>
+           
+		
+	body {
+        background-color: Teal ; 
+    }
+	
+	p {
+    background-color: GreenYellow  ;
+	font-family: palatino;
+    font-size: 18px;
+    }  
+    
+	</style>	
+    </head>
+    <body> 
+
+		<div class="menu-toggle">
+            <div class="hamburger"></div>
+        </div>
+    </section>
+    
+	<h1 style="color:rgb(255,255,0)">🎀 Bhakti Nagaria's Personal Site 🎀 </h1>
+   
+<p style="color:#006400;">
+ 
+   <h1 style="color:rgb( 128, 0, 128)">?? Intro ??</h1>
+   
+        <section class="Intro">
+            <div class="container">
+                <p>Photographer, Photo-Editor & Much More & 
+                    <span>Hard working & Eager to learn new things ...</span></p>
+                <a href="picture"><img src="C:\Users\1\Desktop\meee/cute.png" alt="cute" style="width:160px;height:280px;"> </a>
+				<a href="picture"><img src="C:\Users\1\Desktop\meee/blue.jpg" alt="blue" style="width:160px;height:280px;"> </a>
+				<a href="picture"><img src="C:\Users\1\Desktop\meee/indian.jpg" alt="indian" style="width:160px;height:280px;"> </a>
+                <a href="picture"><img src="C:\Users\1\Desktop\meee/twitter.png" alt="twitter" style="width:160px;height:280px;"> </a>
+                <a href="picture"><img src="C:\Users\1\Desktop\meee/youtube.png" alt="youtube" style="width:160px;height:280px;"> </a>
+                
+            </div>
+        </section>
+        
+  <h1 style="color:rgb(0,0,255)">?? Who I am ??</h1>
+  
+    <section class="About" id="About">
+ 
+        <p>My name is Bhakti Nagaria. I am a 26 years old girl with too many hobbies. I was born in U.S.A in Maryland at Howard county hospital. 
+        I’m 5’4” I’m a Android/Apple fanatic. I like to look at trending things. My real life bestie is my mom. 
+        I do what I love to do. I like chocolate, and mint chocolate chips ice cream. I like strawberry shake. love coke better than Pepsi. I love French fries. I’m still single. 
+        I am obsessed with the color purple. My favorite number is 6. My favorite weekday is Monday and Friday. my favorite weekend is Sunday. I can’t live without my iPad or phone. 
+        I never stop Goggling things. I admire Barack Obama. I like Samsung and Android. I’m a social media enthusiast. 
+        I am mostly active on youtube & twitter. There is a lot in my life that I want to achieve and learn. I am caring, hard working & loving person and also a geeky person too.
+         With my ability to have great interest in many subjects I hope to gain a lot of
+            knowledge in many areas. I am currently Coding my very own website. Learn all of the programing elements, and also become a respected
+            Photographer, Photo Editor, and Internet Famous. Honesty is a top priority for me. So that's the reason I became a tech youtuber.</p>
+    </section>
+    
+   <h1 style="color:rgb(128, 0, 0)">?? What to expect ??</h1>
+    
+    <section class="My Baby">
+        <figure>
+            <img src="C:\Users\1\Desktop\meee\samsung galaxy note9.png" alt="note9" style="width:200px;height:225px;"> </a>
+        </figure>
+        <p id="Photography">My love of photography started with my purple Samsung Galaxy Note 9 (AKA)  My Favorite Color. Please check out my instagram for more Photography.!!!</p>
+        <figure>
+            <img src="C:\Users\1\Desktop\meee\photoshop.png" alt=" Adobe Photoshop express">
+        </figure>
+        <p id="p5">So now i've captured great photos now they have to be edited. This is something I enjoy doing since it allows me to practice even more ways to be creative. You can also expect me to share this with you as of course we all wanna make the world
+            as a better place and as a living organism. Its my duty to pass on my knowledge</p> 
+        <figure>
+            <img src="C:\Users\1\Desktop\meee\coding.webp" alt="Programming" style="width:240px;height:225px;">
+        </figure>
+        <p id="p7">I am currently coding my very own site, and trying to learn more about programming which will be my future job for the time being.!</p>
+          <h1 style="color:rgb( 255, 0, 255)">?? Suggesstions ??</h1>
+         <figure>
+             <img src="C:\Users\1\Desktop\meee\suggestions.jpg" alt="suggestions" style="width:200px;height:225px;"> </a>
+		</figure>
+        <p id="p7"> Please let me know in email or DM on twitter, if you guys have any ideas/suggestions to add anything here on the site ... ? </p>
+          
+        <!-- END OF FORM -->
+
+<section class="SHOOT me a MSG">
+        <div>
+            <ul>
+                <li>Business email: hellobabe2018@aol.com</li>
+                <li>You can also send a DM through Twitter<br><a href="https://twitter.com/discovermunni">@discovermunni</a></li>
+                <li> follow me on SPOTIFY <br><a href="https://open.spotify.com/user/dailybumps23?si=9i4xBT1BQUaH3_1ehCtx6A">@dailybumps23</a></li>
+            </ul>
+        </div>
+    </section>
+    </body>	
+			
+        </section>
+		
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="js/nav.js" charset="utf-8"></script>
+	</section>
+	</body>
+
+</html>
