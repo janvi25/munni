@@ -9,7 +9,7 @@
 	<style>
            
 		
-	body {
+	body{
         background-color: Teal ; 
     }
 	
@@ -41,11 +41,26 @@
                 <a href="picture"><img src="C:\Users\1\Desktop\meee/cute.png" alt="cute" style="width:160px;height:280px;"> </a>
 				<a href="picture"><img src="C:\Users\1\Desktop\meee/blue.jpg" alt="blue" style="width:160px;height:280px;"> </a>
 				<a href="picture"><img src="C:\Users\1\Desktop\meee/indian.jpg" alt="indian" style="width:160px;height:280px;"> </a>
-                <a href="picture"><img src="C:\Users\1\Desktop\meee/twitter.png" alt="twitter" style="width:160px;height:280px;"> </a>
-                <a href="picture"><img src="C:\Users\1\Desktop\meee/youtube.png" alt="youtube" style="width:160px;height:280px;"> </a>
-                
+            </div>
+            
+        </section>
+        
+  <header>
+  
+ <section class="socialmedia">
+            <div class="wrapper">
+                <div>
+                  <a href="https://twitter.com/discovermunni"><img src="C:\Users\1\Desktop\meee/twitter.png" alt="Twitter"></a>
+                </div>
+                <div>
+                  <a href="https://open.spotify.com/playlist/6R3MAg8MDOoOFt3dHitpRY"><img src="" alt="Spotify"></a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/channel/UCLPzyQOjuoO6aKkWLkqtwdg?view_as=subscriber"><img src="C:\Users\1\Desktop\meee/youtube.png" alt="YouTube"></a>
+                </div>
             </div>
         </section>
+    </header>       
         
   <h1 style="color:rgb(0,0,255)">?? Who I am ??</h1>
   
@@ -86,6 +101,8 @@
           
         <!-- END OF FORM -->
 
+
+        
 <section class="SHOOT me a MSG">
         <div>
             <ul>
