@@ -10,11 +10,10 @@
            
 		
 	body{
-        background-color: Teal ; 
+        background-color: indigo; 
     }
 	
 	p {
-    background-color: GreenYellow  ;
 	font-family: palatino;
     font-size: 18px;
     }  
@@ -28,19 +27,19 @@
         </div>
     </section>
     
-	<h1 style="color:rgb(255,255,0)">🎀 Bhakti Nagaria's Personal Site 🎀 </h1>
+	<h1 style="color:#66ff66">🎀 Bhakti Nagaria's Personal Site 🎀 </h1>
    
-<p style="color:#006400;">
+<p style="color:#ff9900;"
  
-   <h1 style="color:rgb( 128, 0, 128)">?? Intro ??</h1>
+   <h1 style="color: #66ff66">?? Intro ??</h1>
    
         <section class="Intro">
             <div class="container">
                 <p>Photographer, Photo-Editor & Much More & 
                     <span>Hard working & Eager to learn new things ...</span></p>
                 <a href="picture"><img src="C:\Users\1\Desktop\meee/cute.png" alt="cute" style="width:160px;height:280px;"> </a>
-				<a href="picture"><img src="C:\Users\1\Desktop\meee/blue.jpg" alt="blue" style="width:160px;height:280px;"> </a>
-				<a href="picture"><img src="C:\Users\1\Desktop\meee/indian.jpg" alt="indian" style="width:160px;height:280px;"> </a>
+		<a href="picture"><img src="C:\Users\1\Desktop\meee/blue.jpg" alt="blue" style="width:160px;height:280px;"> </a>
+		<a href="picture"><img src="C:\Users\1\Desktop\meee/indian.jpg" alt="indian" style="width:160px;height:280px;"> </a>
             </div>
             
         </section>
@@ -62,7 +61,7 @@
         </section>
     </header>       
         
-  <h1 style="color:rgb(0,0,255)">?? Who I am ??</h1>
+  <h1 style="color:#66ff66">?? Who I am ??</h1>
   
     <section class="About" id="About">
  
@@ -77,7 +76,7 @@
             Photographer, Photo Editor, and Internet Famous. Honesty is a top priority for me. So that's the reason I became a tech youtuber.</p>
     </section>
     
-   <h1 style="color:rgb(128, 0, 0)">?? What to expect ??</h1>
+   <h1 style="color: #66ff66">?? What to expect ??</h1>
     
     <section class="My Baby">
         <figure>
@@ -93,7 +92,9 @@
             <img src="C:\Users\1\Desktop\meee\coding.webp" alt="Programming" style="width:240px;height:225px;">
         </figure>
         <p id="p7">I am currently coding my very own site, and trying to learn more about programming which will be my future job for the time being.!</p>
-          <h1 style="color:rgb( 255, 0, 255)">?? Suggesstions ??</h1>
+          
+	  
+	  <h1 style="color: #66ff66">?? Suggesstions ??</h1>
          <figure>
              <img src="C:\Users\1\Desktop\meee\suggestions.jpg" alt="suggestions" style="width:200px;height:225px;"> </a>
 		</figure>
@@ -115,7 +116,171 @@
     </body>	
 			
         </section>
-		
+<div class="container">
+
+
+
+   <h1 style="color: #66ff66 ">?? Feedback!</h1>
+
+
+
+        <form action="#" class="was-validated">
+
+
+
+            <div class="form-group">
+
+
+
+                <label for="name">Name:</label>
+
+
+
+                <input data-toggle="tooltip" data-placement="bottom" title="Insert your name here." type="text" class="form-control" id="name" required pattern="^[a-zA-Z ,.'-]+$">
+
+            </div>
+
+
+
+            <div class="form-group">
+
+
+
+                <label for="Email address">Email Address:</label>
+
+
+
+                <input data-toggle="tooltip" data-placement="bottom" title="Insert your  Email address here." type="text" class="form-control" id=" email address" required pattern="^[a-zA-Z]+ ?[a-zA-Z]+ [0-9]+$">
+
+
+            </div>
+
+
+
+            <button data-toggle="modal" data-target="#modal" type="button" class="btn btn-primary" id="submit">Submit</button>
+
+
+
+            <br><br>
+
+
+
+            <div id="invalid" class="alert alert-danger" style="display: none"><strong>Invalid</strong> please fill out everything with the appropriate characters</div>
+
+
+
+            <div id="valid" class="alert alert-success" style="display: none"><strong>valid!</strong></div>
+
+
+
+            <div id="submit-sent" class="alert alert-success" style="display: none"><strong>Thank you for your  feedback!</strong></div>
+
+
+
+        </form>
+
+
+
+    </div>
+
+    <!-- The Modal -->
+
+
+
+<div class="modal fade" id="modal">
+
+
+
+  <div class="modal-dialog">
+
+
+
+    <div class="modal-content">
+
+
+      <!-- Modal Header -->
+
+
+
+      <div class="modal-header">
+
+
+
+        <h4 class="modal-title">Are you sure you want to submit?</h4>
+
+
+        <button id="submitted" type="submit" class="btn btn-danger" data-dismiss="modal">Submit</button>
+
+
+
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Go back</button>
+
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+
+<script src="/bootstrap-4.3.1-dist\js\popper.js" charset="utf-8"></script>
+
+
+
+<script src="/bootstrap-4.3.1-dist\js\bootstrap.bundle.min.js" charset="utf-8"></script>
+
+
+
+<script src="/bootstrap-4.3.1-dist\js\bootstrap.min.js" charset="utf-8"></script>
+
+
+
+<script src="form.js" charset="utf-8"></script>
+
+
+
+</html>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+
+
+        </nav>
+
+
+
+        <script type="text/javascript">
+
+
+
+        $("nav").load("/html-preload/nav.html");
+
+
+
+        </script>
+        <br>
+
+        <div class="container text-center">
+
+            <div class="btn-group col-sm-12">
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <br>
+
+            </div>
+
+
+
+        </div>		
     <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
     <script src="js/nav.js" charset="utf-8"></script>
 	</section>
