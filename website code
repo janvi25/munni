@@ -8,14 +8,17 @@
        <title>Bhakti Nagaria's Site</title>
 	<style>
            
-		
+	h1{
+	font-size:24px
+   }
+	
 	body{
         background-color: indigo; 
     }
 	
 	p {
 	font-family: palatino;
-    font-size: 18px;
+    font-size: 24px;
     }  
     
 	</style>	
@@ -29,7 +32,7 @@
     
 	<h1 style="color:#66ff66">🎀 Bhakti Nagaria's Personal Site 🎀 </h1>
    
-<p style="color:#ff9900;"
+<p style="color:#66ff66;"
  
    <h1 style="color: #66ff66">?? Intro ??</h1>
    
