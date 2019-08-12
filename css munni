@@ -1,0 +1,105 @@
+#header
+{
+	height: 45vw;
+	
+	background-image: url("images/My Post1.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+
+#nav
+{
+	height:100%;
+	width: 100%;
+	background-color:rgba(0,0,0,0.8);
+	color: black;
+	padding: 2vw;
+	
+}
+
+#footer
+{
+      <a href="#fot">Contact</a>
+}
+
+
+#nav a 
+{
+	padding: 2vw;
+	color: red;
+	font-size: 1.4vw;
+}
+
+#clear
+{
+	clear: both;
+}
+#icon 
+{
+	display: all;
+}
+#headerText h1
+{
+	color: cyan;
+	
+	font-size: 4vw;
+	width: 20%;
+	margin-top: 10vw;
+	margin-left: 30vw;
+	overflow: hidden;
+	white-space: nowrap;
+	
+	border-right: 1px solid hotpink;
+	animation: typing 3s linear infinite;
+}
+#headerText p
+{
+	color: purple;
+	font-size: 2vw;
+	font-style: bold;
+	margin-left: 30vw;
+
+}
+
+@keyframes typing {
+	from{width:0%;}
+	to{width: 43%;}
+}
+
+#about 
+{
+	padding: 5vw;
+}
+#about h3
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 3vw;
+	font-family: lobster;
+}
+#profile
+{
+	width: 30%;
+	float:left;
+}
+#intro
+{
+	width: 70%;
+	float:left;
+}
+#intro p 
+{
+	font-size: 1.4vw;
+	margin-top: 2vw;
+	font-family: lobster;
+}
+#profile img
+{
+	height: 15vw;
+	width: 15vw;
+	border-radius: 50%;
+	margin-top: 2vw;
+
+
+}
