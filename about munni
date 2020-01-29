@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Eczar|Rubik&display=swap" rel="stylesheet">
+
+    <title>About - Bhakti Nagaria</title>
+</head>
+<body>
+    <header>
+        <h1><span class="name1">Bhakti </span><span class="name2">Nagaria</span></h1>
+  
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About Me</a></li>
+            <li><a href="fav.html">Favorite</a></li>
+            <li><a href="skill.html">Skills</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="main_content">
+       
+        <p><span class="aboutmep">About Me: </span><br>My name is Bhakti Nagaria. I am born in U.S.A in Maryland at Howard Country generally hospital. I am a girl with too many hobbies. In my family there are two people which is me and my Mom, but I did't mention my father right? Let me tell you guys that my father is passed away in 2006 so. since that time is just me and my Mom living together in the house. I am a android fanatic. I like to llok up trending things. I never stop exploring new things. I love to be on social media , who doesn't right? I am mostly active on youtube, tiktok and Instagram. Thses is a lot in my life that I wanna achieve and learn with my ability to have great intrest in many subsects i hope to gain a lot of knowledge in many areas and also become a respected photoshoper and a photo editor. Honestly is a top proirity for me. So that's the reason I became a Web developer, reading my bio lets you know that i love technology.s </p>
+       
+    </div>
+  
+</body>
+</html>
