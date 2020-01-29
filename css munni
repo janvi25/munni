@@ -1,105 +1,309 @@
-#header
-{
-	height: 45vw;
-	
-	background-image: url("images/My Post1.png");
-	background-size:cover;
-	background-repeat: no-repeat;
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.1)),url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    max-width: 2560px;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+
+   
+}
+header{
+    text-align: center;
+   
+   
+}
+
+header h1{
+    margin: 70px 0 70px 0px;
+    text-align: center;
+    font-size: 300%;
+    color: #66fcf1;
+    border-bottom: 3px solid rgba(211, 64, 179, .8);
+    font-family: 'Eczar', serif;
+    letter-spacing: 5px;
+    word-spacing: 10px;
 
 }
 
-#nav
-{
-	height:100%;
-	width: 100%;
-	background-color:rgba(0,0,0,0.8);
-	color: black;
-	padding: 2vw;
-	
+header nav ul li{
+   
+    display: inline-block;
+    padding-left: 40px;
+    
 }
-
-#footer
-{
-      <a href="#fot">Contact</a>
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 3px solid;
+    padding: 10px;
+    border-left: 3px solid;
+    border-bottom-left-radius: 23px;
+    font-weight: bold;
+    
 }
-
-
-#nav a 
-{
-	padding: 2vw;
-	color: red;
-	font-size: 1.4vw;
+header nav ul li a:hover{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-top-right-radius: 23px;
+    animation: cchange 2s ;
+    border-color: rgb(211, 64, 179);
 }
-
-#clear
-{
-	clear: both;
+.main_content{
+   margin-top: 100px;
+    margin-left: 120px;
+    width: 50%;
+   
 }
-#icon 
-{
-	display: all;
-}
-#headerText h1
-{
-	color: cyan;
-	
-	font-size: 4vw;
-	width: 20%;
-	margin-top: 10vw;
-	margin-left: 30vw;
-	overflow: hidden;
-	white-space: nowrap;
-	
-	border-right: 1px solid hotpink;
-	animation: typing 3s linear infinite;
-}
-#headerText p
-{
-	color: purple;
-	font-size: 2vw;
-	font-style: bold;
-	margin-left: 30vw;
+.main_content h2{
+    font-size: 300%;
+    margin: 0px 0px 40px 0px;
+    color:#fff;
+    
+    font-weight: lighter;
 
 }
 
-@keyframes typing {
-	from{width:0%;}
-	to{width: 43%;}
-}
+.main_content_fav{
+    margin-top: 50px;
+     margin-left: 120px;
+     width: 50%;
+    
+ }
+ .main_content_fav h2{
+     font-size: 300%;
+     margin: 0px 0px 40px 0px;
+     color:#fff;
+     font-weight: lighter;
+ 
+ }
 
-#about 
-{
-	padding: 5vw;
-}
-#about h3
-{
-	text-align: center;
-	text-decoration: underline;
-	font-size: 3vw;
-	font-family: lobster;
-}
-#profile
-{
-	width: 30%;
-	float:left;
-}
-#intro
-{
-	width: 70%;
-	float:left;
-}
-#intro p 
-{
-	font-size: 1.4vw;
-	margin-top: 2vw;
-	font-family: lobster;
-}
-#profile img
-{
-	height: 15vw;
-	width: 15vw;
-	border-radius: 50%;
-	margin-top: 2vw;
+ .fav-para{
+     text-align: justify;
+     line-height: 30px;
+ }
 
 
+.website-name{
+    color:#66fcf1;
+    font-size: 60%;
 }
+
+.website-name::before{
+    content: "My Profile.";
+    animation: web1 5s;
+    
+}
+
+
+p{
+    color: #fff;
+    text-align: justify;
+}
+footer{
+    clear: both;
+    color: #fff;
+    margin: 10%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutmep{
+font-size: 200%;
+color: #66fcf1;
+}
+
+
+.about-name{
+    color:#66fcf1;
+    font-size: 60%;
+    
+}
+
+.about-name::before{
+    content: "About Section.";
+    animation: about1 5s ease;
+    
+}
+.active{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-top-right-radius: 23px;
+    border-color: rgb(211, 64, 179);  
+}
+
+.readmore{
+    margin-top: 30px;
+    border: none;
+    background: transparent;
+    padding: 20px;
+    border-bottom: 3px solid rgb(211, 64, 179);
+    border-left: 3px solid rgb(211, 64, 179);
+    border-bottom-left-radius: 23px;
+}
+.readmore a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+   
+}
+.readmore:hover{
+    border-top: 3px solid;
+    border-right: 3px solid;
+    border-top-right-radius: 23px;
+    animation: cchange 2s ;
+    border-color: rgb(211, 64, 179);
+}
+
+
+
+
+@keyframes 
+cchange{
+    0%{border-color: rgba(230, 15, 15,.5);
+        background-color:  rgba(230, 15, 15,.5);
+    }
+}
+
+@keyframes
+    web1{
+        0%{
+            content: "M|";
+        }
+        5%{
+            content: "My|";
+        }
+        10%{
+            content: "My |";
+        }
+        15%{
+            content: "My P|";
+        }
+        20%{
+            content: "My Pr|";
+        }
+        25%{
+            content: "My Pro|";
+        }
+        30%{
+            content: "My Profi|";
+        }
+        35%{
+            content: "My Profil|";
+        }
+        40%{
+            content: "My Profile|";
+        }
+        45%{
+            content: "My Profile.";
+        }        
+    }
+
+    @keyframes
+    about1{
+        0%{
+            content: "A|";
+        }
+        5%{
+            content: "Ab|";
+        }
+        10%{
+            content: "Abo|";
+        }
+        15%{
+            content: "About|";
+        }
+        20%{
+            content: "About |";
+        }
+        25%{
+            content: "About S|";
+        }
+        30%{
+            content: "About Se";
+        }
+        35%{
+            content: "About Sec|";
+        }
+        40%{
+            content: "About Sect|";
+        }
+        45%{
+            content: "About Secti|";
+        }        
+        50%{
+            content: "About Sectio|";
+        }
+        55%{
+            content: "About Section|";
+        }
+        60%{
+            content: "About Section.";
+        }
+    }
+
+
+
+    @media only screen and (max-width: 600px){
+
+        header h1{
+            margin: 30px 0 30px 0px;
+            font-size: 150%;
+        }
+        
+        header nav ul li{
+            display: block;
+            padding: 10px;
+
+            
+        }
+
+        header nav ul li a{
+            border: none;
+        }
+        header nav ul li a:hover{
+           border: none;
+        }
+        .active{
+            border: none; 
+           
+        }
+        .main_content{
+            margin-top: 10px;
+             margin-left: 5px;
+             width: 90%;
+            
+         }
+         .main_content h2{
+            font-size: 120%;
+            margin: 0px 20px;
+            color:#fff;
+            font-weight: lighter;
+        
+        }
+        .main_content_fav{
+            margin-top: 10px;
+             margin-left: 50px;
+             width: 50%;
+            
+         }
+        .main_content_fav h2{
+            font-size: 120%;
+            margin: 0px 20px;
+            color:#fff;
+            font-weight: lighter;
+        
+        }
+    }
